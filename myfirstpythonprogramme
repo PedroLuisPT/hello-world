@@ -1,1 +1,13 @@
+x=int(input("Escreva um número"))
+y=int(input("Escreva outro número"))
+a=(x*x)**2
+b=(y*x)**2
+if x>y:
+    print(a)
+elif y>x:
+    print(b)
+elif x==0 and y==0:
+    print("ambos zero")
+else:
+    print("iguais")
 
